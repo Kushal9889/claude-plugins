@@ -1,0 +1,6 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "tools",
+  "description": "Utility skills — Claude Code guide, NotebookLM, Graphify, awesome lists",
+  "plugins": [{"name": "tools", "description": "Utility skills — Claude Code guide, NotebookLM, Graphify, awesome lists", "source": "./", "category": "engineering"}]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "mattpocock-skills",
+  "version": "1.0.0",
+  "description": "Matt Pocock's curated Claude Code skills — engineering, productivity, writing, misc, personal. Organized by category for clarity.",
+  "author": {
+    "name": "Matt Pocock",
+    "url": "https://github.com/mattpocock"
+  },
+  "homepage": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "mcpServers": {},
+  "skills": [
+    "./skills/engineering/",
+    "./skills/productivity/",
+    "./skills/misc/",
+    "./skills/personal/",
+    "./skills/in-progress/"
+  ]
+}

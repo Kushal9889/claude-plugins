@@ -1,0 +1,13 @@
+{
+  "name": "gstack",
+  "version": "1.56.0.0",
+  "description": "Garry Tan's gstack — engineering workflow skills: autoplan, plan reviews, ship/deploy, QA, design, codex integration, browser automation.",
+  "author": {
+    "name": "Garry Tan",
+    "url": "https://github.com/garrytan/gstack"
+  },
+  "homepage": "https://github.com/garrytan/gstack",
+  "license": "MIT",
+  "mcpServers": {},
+  "skills": ["./skills/"]
+}

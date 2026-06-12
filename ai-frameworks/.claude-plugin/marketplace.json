@@ -1,0 +1,6 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ai-frameworks",
+  "description": "AI/ML frameworks — LangChain, LangGraph, Context7",
+  "plugins": [{"name": "ai-frameworks", "description": "AI/ML frameworks — LangChain, LangGraph, Context7", "source": "./", "category": "engineering"}]
+}

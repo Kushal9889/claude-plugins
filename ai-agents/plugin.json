@@ -1,0 +1,6 @@
+{
+  "name": "ai-agents",
+  "version": "1.0.0",
+  "description": "AI agent development — evaluation, orchestration, memory, tools, and multi-agent patterns",
+  "skills": "./skills/"
+}

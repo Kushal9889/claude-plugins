@@ -1,0 +1,6 @@
+{
+  "name": "ai-frameworks",
+  "version": "1.0.0",
+  "description": "AI/ML frameworks — LangChain, LangGraph, Context7",
+  "skills": "./skills/"
+}

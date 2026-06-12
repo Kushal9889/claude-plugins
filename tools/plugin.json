@@ -1,0 +1,6 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "Utility skills — Claude Code guide, NotebookLM, Graphify, awesome lists",
+  "skills": "./skills/"
+}

@@ -1,0 +1,218 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "kushal-claude-plugins",
+  "description": "Combined personal Claude plugin marketplace \u2014 custom skills (algo-sensei, gstack, superclaude, mattpocock, tooling) plus references to public work plugins. One add installs everything.",
+  "owner": {
+    "name": "Kushal9889"
+  },
+  "plugins": [
+    {
+      "name": "algo-sensei",
+      "source": "./algo-sensei",
+      "description": "Personal DSA & LeetCode mentor skill: explanations, progressive hints, code review, mock interviews, pattern recognition."
+    },
+    {
+      "name": "mattpocock-skills",
+      "source": "./mattpocock-skills",
+      "description": "Matt Pocock's curated Claude Code skills \u2014 engineering, productivity, writing, misc, personal. Organized by category for clarity."
+    },
+    {
+      "name": "superclaude",
+      "source": "./superclaude",
+      "description": "AI-enhanced development framework for Claude Code \u2014 30 commands, 20 agents, 7 modes, confidence checks, parallel execution, and reflexion-based learning"
+    },
+    {
+      "name": "gstack",
+      "source": "./gstack",
+      "description": "Garry Tan's gstack \u2014 engineering workflow skills: autoplan, plan reviews, ship/deploy, QA, design, codex integration, browser automation."
+    },
+    {
+      "name": "tools",
+      "source": "./tools",
+      "description": "Utility skills \u2014 Claude Code guide, NotebookLM, Graphify, awesome lists"
+    },
+    {
+      "name": "ai-agents",
+      "source": "./ai-agents",
+      "description": "AI agent development \u2014 evaluation, orchestration, memory, tools, and multi-agent patterns"
+    },
+    {
+      "name": "azure",
+      "source": "./azure",
+      "description": "Azure SDK patterns \u2014 Cosmos DB, Content Safety, Data Tables"
+    },
+    {
+      "name": "architecture",
+      "source": "./architecture",
+      "description": "Software architecture \u2014 C4 diagrams, architecture-as-code"
+    },
+    {
+      "name": "ai-frameworks",
+      "source": "./ai-frameworks",
+      "description": "AI/ML frameworks \u2014 LangChain, LangGraph, Context7"
+    },
+    {
+      "name": "workflow",
+      "source": "./workflow",
+      "description": "Dev workflow \u2014 spec, build, check, backprop, security"
+    },
+    {
+      "name": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "productivity",
+        "ref": "main"
+      },
+      "description": "Tasks, calendar/email/chat sync, working memory"
+    },
+    {
+      "name": "engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "engineering",
+        "ref": "main"
+      },
+      "description": "Deploy, debug, system design, code review"
+    },
+    {
+      "name": "data",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "data",
+        "ref": "main"
+      },
+      "description": "SQL, dataset exploration, dashboards, viz"
+    },
+    {
+      "name": "legal",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "legal",
+        "ref": "main"
+      },
+      "description": "Contract review, NDA triage, compliance"
+    },
+    {
+      "name": "product-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "product-management",
+        "ref": "main"
+      },
+      "description": "Specs, roadmaps, user research synthesis"
+    },
+    {
+      "name": "human-resources",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "human-resources",
+        "ref": "main"
+      },
+      "description": "Recruiting, comp analysis, onboarding"
+    },
+    {
+      "name": "enterprise-search",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "enterprise-search",
+        "ref": "main"
+      },
+      "description": "Search across company tools"
+    },
+    {
+      "name": "design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "design",
+        "ref": "main"
+      },
+      "description": "Design workflows"
+    },
+    {
+      "name": "marketing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "marketing",
+        "ref": "main"
+      },
+      "description": "Content, campaigns, brand voice"
+    },
+    {
+      "name": "finance",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "finance",
+        "ref": "main"
+      },
+      "description": "Journal entries, reconciliation, close"
+    },
+    {
+      "name": "sales",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "sales",
+        "ref": "main"
+      },
+      "description": "Prospecting, outreach, pipeline"
+    },
+    {
+      "name": "customer-support",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "customer-support",
+        "ref": "main"
+      },
+      "description": "Ticket triage, knowledge base"
+    },
+    {
+      "name": "operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "operations",
+        "ref": "main"
+      },
+      "description": "Operations workflows"
+    },
+    {
+      "name": "brand-voice",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "brand-voice",
+        "ref": "main"
+      },
+      "description": "Brand consistency"
+    },
+    {
+      "name": "bio-research",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "bio-research",
+        "ref": "main"
+      },
+      "description": "Life sciences R&D tooling"
+    },
+    {
+      "name": "agentmemory",
+      "source": {
+        "source": "github",
+        "repo": "rohitg00/agentmemory"
+      },
+      "description": "Persistent cross-session memory: hooks, MCP tools, recall/handoff skills"
+    }
+  ]
+}

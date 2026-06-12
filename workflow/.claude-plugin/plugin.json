@@ -1,0 +1,8 @@
+{
+  "name": "workflow",
+  "description": "Dev workflow \u2014 spec, build, check, backprop, security",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kushal9889"
+  }
+}

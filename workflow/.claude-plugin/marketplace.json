@@ -1,0 +1,6 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "workflow",
+  "description": "Dev workflow — spec, build, check, backprop, security",
+  "plugins": [{"name": "workflow", "description": "Dev workflow — spec, build, check, backprop, security", "source": "./", "category": "engineering"}]
+}

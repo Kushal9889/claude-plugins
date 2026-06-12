@@ -1,0 +1,6 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ai-agents",
+  "description": "AI agent development — evaluation, orchestration, memory, tools, and multi-agent patterns",
+  "plugins": [{"name": "ai-agents", "description": "AI agent development — evaluation, orchestration, memory, tools, and multi-agent patterns", "source": "./", "category": "engineering"}]
+}

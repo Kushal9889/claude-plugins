@@ -1,0 +1,6 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "azure",
+  "description": "Azure SDK patterns — Cosmos DB, Content Safety, Data Tables",
+  "plugins": [{"name": "azure", "description": "Azure SDK patterns — Cosmos DB, Content Safety, Data Tables", "source": "./", "category": "engineering"}]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "algo-sensei",
+  "version": "1.0.0",
+  "description": "Personal DSA & LeetCode mentor skill: explanations, progressive hints, code review, mock interviews, pattern recognition.",
+  "author": {
+    "name": "karanb192",
+    "url": "https://github.com/karanb192/algo-sensei"
+  },
+  "homepage": "https://github.com/karanb192/algo-sensei",
+  "license": "MIT",
+  "mcpServers": {},
+  "skills": ["./skills/"]
+}

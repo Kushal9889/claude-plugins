@@ -1,0 +1,8 @@
+{
+  "name": "azure",
+  "description": "Azure SDK patterns \u2014 Cosmos DB, Content Safety, Data Tables",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kushal9889"
+  }
+}

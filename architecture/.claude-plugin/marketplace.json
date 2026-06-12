@@ -1,0 +1,6 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "architecture",
+  "description": "Software architecture — C4 diagrams, architecture-as-code",
+  "plugins": [{"name": "architecture", "description": "Software architecture — C4 diagrams, architecture-as-code", "source": "./", "category": "engineering"}]
+}
