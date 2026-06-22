@@ -1,13 +1,9 @@
 {
   "name": "gstack",
-  "version": "1.56.0.0",
-  "description": "Garry Tan's gstack — engineering workflow skills: autoplan, plan reviews, ship/deploy, QA, design, codex integration, browser automation.",
-  "author": {
-    "name": "Garry Tan",
-    "url": "https://github.com/garrytan/gstack"
-  },
+  "version": "1.58.4.0",
+  "description": "Garry Tan's gstack engineering workflow skills, repackaged as a Claude plugin: office-hours, plan/ceo/eng/design reviews, review, qa, ship, design, docs, security (cso), and more. Conversational/methodology skills run anywhere; browser/CLI-engine skills (browse, qa, ship, ios-*) need the gstack CLI install to fully function.",
+  "author": { "name": "Garry Tan (repackaged by Kushal9889)" },
   "homepage": "https://github.com/garrytan/gstack",
   "license": "MIT",
-  "mcpServers": {},
-  "skills": ["./skills/"]
+  "keywords": ["workflow","review","qa","planning","design","gstack"]
 }
