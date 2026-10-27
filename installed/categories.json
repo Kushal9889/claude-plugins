@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "plugin",
+      "description": "Claude plugins, skills, MCP tools, agent setups"
+    },
+    {
+      "id": "application-form",
+      "description": "Application forms, e.g. Java application forms, job or visa forms"
+    },
+    {
+      "id": "reel",
+      "description": "Short-form video posts (Instagram reels, TikTok) and their underlying assets"
+    },
+    {
+      "id": "research-paper",
+      "description": "Research papers, articles, preprints"
+    },
+    {
+      "id": "other",
+      "description": "Anything not matching a known category; triggers category learning from patterns"
+    }
+  ],
+  "rules": [
+    "Categories are learned from patterns and repeat across shared links.",
+    "Every shared link is classified; unclassified links use 'other' and propose a new category.",
+    "Category-grouped work may run in its own chat/session (e.g. Instagram-link things in a separate chat)."
+  ]
+}

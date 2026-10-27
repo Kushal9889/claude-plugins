@@ -1,0 +1,6 @@
+{
+  "name": "billion-context",
+  "version": "1.0.0",
+  "description": "Agent-installed: billion-context context-compression for Claude Code (npm MCP tool, documented here, not vendored)",
+  "skills": "./skills/"
+}
