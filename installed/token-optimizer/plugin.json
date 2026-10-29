@@ -1,0 +1,6 @@
+{
+  "name": "token-optimizer",
+  "version": "1.0.0",
+  "description": "Agent-installed: Token Optimizer for Claude Code (CLI plugin, documented here, not vendored)",
+  "skills": "./skills/"
+}

@@ -19,6 +19,23 @@
       "verification": "Public project match from web search. The reel's exact DM payload is unverified (gated behind a ROOM comment, which is never posted on Kushal's behalf). The reel video file itself was not extracted.",
       "removal": "Delete installed/billion-context/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
       "status": "installed"
+    },
+    {
+      "id": "token-optimizer",
+      "name": "token-optimizer",
+      "category": "plugin",
+      "source_type": "instagram-reel",
+      "source_url": "https://www.instagram.com/reel/De110UNFbyW/",
+      "source_author": "liamjohnston.ai",
+      "upstream_url": "https://github.com/alexgreensh/token-optimizer",
+      "installed_by": "merlin",
+      "installed_at": "2026-10-29",
+      "description": "Claude Code plugin that finds ghost tokens burning through your Claude limit and shows the biggest fixes first, with audit, quick scan, dashboard, trends, and savings reports.",
+      "install_method": "Follow the setup guide https://token-optimizer.dev/install/overview/ for Claude Code (CLI plugin); dashboard at http://localhost:24842/token-optimizer after install",
+      "path": "installed/token-optimizer/",
+      "verification": "Public project match only. The reel's exact DM payload is unverified (gated behind a BILL comment, never posted on Kushal's behalf).",
+      "removal": "Delete installed/token-optimizer/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
+      "status": "installed"
     }
   ]
 }
