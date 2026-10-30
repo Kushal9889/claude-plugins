@@ -53,6 +53,57 @@
       "verification": "Verified exact public match: upstream README is titled 'MotionSites Web Builder: a free Claude skill' and its SKILL.md name is motionsites-web-builder, matching the reel's content. The reel's DM payload is unverified (gated behind a SITE comment, never posted on Kushal's behalf) and unnecessary - the skill is public on GitHub.",
       "removal": "Delete installed/motionsites-web-builder/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
       "status": "installed"
+    },
+    {
+      "id": "anatomy",
+      "name": "Anatomy",
+      "category": "skill",
+      "source_type": "instagram-reel",
+      "source_url": "https://www.instagram.com/reel/DernWRMsBjJ/",
+      "source_author": "farhannrakhangi",
+      "upstream_url": "https://github.com/wheresryan22/anatomy",
+      "installed_by": "merlin",
+      "installed_at": "2026-10-30",
+      "description": "Claude Code skill that explains a technical idea by building it as a real working object: name an idea in one line and Claude invents a machine that does it, drawn as a live interactive isometric figure (SVG/WebGL) whose numbers come from the same model that moves its parts. Also runs in OpenCode and Codex.",
+      "install_method": "npx skills add wheresryan22/anatomy -g -a claude-code; then /anatomy explain how <idea> works, interactive",
+      "path": "installed/anatomy/",
+      "verification": "Exact public match: the reel's comment word is 'Anatomy' and the skill's own page (skills.wheresryan.sh/anatomy) matches the reel's claim; upstream SKILL.md copied verbatim. The reel's DM payload itself is unverified (no comment posted).",
+      "removal": "Delete installed/anatomy/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
+      "status": "installed"
+    },
+    {
+      "id": "brag",
+      "name": "Brag (/brag)",
+      "category": "skill",
+      "source_type": "instagram-reel",
+      "source_url": "https://www.instagram.com/reel/Dd1OzxmtvqX/",
+      "source_author": "aiwithunnati",
+      "upstream_url": "https://github.com/latent-spaces/brag",
+      "installed_by": "merlin",
+      "installed_at": "2026-10-30",
+      "description": "Claude Code skill that turns the project you just built into a short shareable launch video with music, motion and share copy in one command (/brag), powered by HyperFrames. Reads project code directly; includes a lean /brag-slim variant.",
+      "install_method": "/plugin marketplace add latent-spaces/brag, then /plugin install brag@brag, then run /brag inside your project (needs Node 22+ and FFmpeg)",
+      "path": "installed/brag/",
+      "verification": "Exact public match: the reel's comment word is 'Brag' and the upstream repo describes the identical function; upstream SKILL.md copied verbatim. The reel's DM payload itself is unverified (no comment posted).",
+      "removal": "Delete installed/brag/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
+      "status": "installed"
+    },
+    {
+      "id": "rea",
+      "name": "REA \u2014 Reverse Engineer Anything",
+      "category": "mcp",
+      "source_type": "instagram-reel",
+      "source_url": "https://www.instagram.com/reel/Deex-AoMcOG/",
+      "source_author": "dhairya.myzia",
+      "upstream_url": "https://github.com/morluto/rea",
+      "installed_by": "merlin",
+      "installed_at": "2026-10-30",
+      "description": "MCP server + CLI that lets a coding agent (Claude Code, Codex, Cursor) look inside an app you do not have source for and explain how a feature works, down to the binary level, then rebuild your own version. Uses Ghidra/Hopper/IDA for native apps and built-in analysis for JS/Electron/.NET/Android/web.",
+      "install_method": "npx rea-agents setup (Node.js + npm required; adds REA's MCP server to chosen agents, restart after)",
+      "path": "installed/rea/",
+      "verification": "Strong public function match: caption describes pointing a coding agent at any app to learn how it works inside and rebuild liked features without stealing source; REA matches exactly and was GitHub #1 trending in Oct 2026. Reel cites ~70,000 stars; Oct 2026 coverage reported REA past 109,000 by Oct 12. The reel's DM payload itself is unverified (no comment posted).",
+      "removal": "Delete installed/rea/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
+      "status": "installed"
     }
   ]
 }
