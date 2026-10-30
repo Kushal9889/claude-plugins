@@ -36,6 +36,23 @@
       "verification": "Public project match only. The reel's exact DM payload is unverified (gated behind a BILL comment, never posted on Kushal's behalf).",
       "removal": "Delete installed/token-optimizer/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
       "status": "installed"
+    },
+    {
+      "id": "motionsites-web-builder",
+      "name": "motionsites-web-builder",
+      "category": "plugin",
+      "source_type": "instagram-reel",
+      "source_url": "https://www.instagram.com/reel/DfHadBWzt5W/",
+      "source_author": "bhupesh.thukral",
+      "upstream_url": "https://github.com/Motionsites-AI/claude-skill",
+      "installed_by": "merlin",
+      "installed_at": "2026-10-30",
+      "description": "Free MIT Claude skill by MotionSites: Claude studies the most-liked designs, picks real cinematic media (50+ hero videos, 30 transparent 3D cut-outs, 40 example prompts, 55+ technique recipes), writes a build spec, builds, then screenshots its own page and fixes it until it clears a gallery-level bar. Works in Claude.ai Skills and Claude Code.",
+      "install_method": "Claude Code: /plugin marketplace add Motionsites-AI/claude-skill; /plugin install motionsites-web-builder@motionsites. Claude.ai/desktop: upload motionsites-web-builder.zip from the upstream latest release via Customize > Skills. Optional: pip install playwright && python -m playwright install chromium",
+      "path": "installed/motionsites-web-builder/",
+      "verification": "Verified exact public match: upstream README is titled 'MotionSites Web Builder: a free Claude skill' and its SKILL.md name is motionsites-web-builder, matching the reel's content. The reel's DM payload is unverified (gated behind a SITE comment, never posted on Kushal's behalf) and unnecessary - the skill is public on GitHub.",
+      "removal": "Delete installed/motionsites-web-builder/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
+      "status": "installed"
     }
   ]
 }
