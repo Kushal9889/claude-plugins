@@ -1,0 +1,6 @@
+{
+  "name": "yt-dlp",
+  "version": "1.0.0",
+  "description": "Agent-installed: yt-dlp (documented here, not vendored)",
+  "skills": "./skills/"
+}

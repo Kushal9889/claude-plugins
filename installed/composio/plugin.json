@@ -1,0 +1,6 @@
+{
+  "name": "composio",
+  "version": "1.0.0",
+  "description": "Agent-installed: Composio (documented here, not vendored)",
+  "skills": "./skills/"
+}

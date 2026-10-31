@@ -1,0 +1,6 @@
+{
+  "name": "github-cli",
+  "version": "1.0.0",
+  "description": "Agent-installed: GitHub CLI (gh) (documented here, not vendored)",
+  "skills": "./skills/"
+}

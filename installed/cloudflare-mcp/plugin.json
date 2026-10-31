@@ -1,0 +1,6 @@
+{
+  "name": "cloudflare-mcp",
+  "version": "1.0.0",
+  "description": "Agent-installed: Cloudflare MCP (documented here, not vendored)",
+  "skills": "./skills/"
+}

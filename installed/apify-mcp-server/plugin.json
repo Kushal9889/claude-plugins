@@ -1,0 +1,6 @@
+{
+  "name": "apify-mcp-server",
+  "version": "1.0.0",
+  "description": "Agent-installed: Apify MCP Server (documented here, not vendored)",
+  "skills": "./skills/"
+}

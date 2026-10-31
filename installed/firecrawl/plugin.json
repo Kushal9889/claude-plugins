@@ -1,0 +1,6 @@
+{
+  "name": "firecrawl",
+  "version": "1.0.0",
+  "description": "Agent-installed: Firecrawl (MCP) (documented here, not vendored)",
+  "skills": "./skills/"
+}

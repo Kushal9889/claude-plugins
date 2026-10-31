@@ -1,0 +1,6 @@
+{
+  "name": "rtk",
+  "version": "1.0.0",
+  "description": "Agent-installed: rtk (documented here, not vendored)",
+  "skills": "./skills/"
+}

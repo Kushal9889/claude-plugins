@@ -1,0 +1,6 @@
+{
+  "name": "last30days",
+  "version": "1.0.0",
+  "description": "Agent-installed: last30days (documented here, not vendored)",
+  "skills": "./skills/"
+}

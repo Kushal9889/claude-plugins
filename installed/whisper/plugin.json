@@ -1,0 +1,6 @@
+{
+  "name": "whisper",
+  "version": "1.0.0",
+  "description": "Agent-installed: Whisper (documented here, not vendored)",
+  "skills": "./skills/"
+}

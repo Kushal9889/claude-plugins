@@ -1,0 +1,6 @@
+{
+  "name": "poppler",
+  "version": "1.0.0",
+  "description": "Agent-installed: Poppler (documented here, not vendored)",
+  "skills": "./skills/"
+}

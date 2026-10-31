@@ -1,0 +1,6 @@
+{
+  "name": "playwright-mcp",
+  "version": "1.0.0",
+  "description": "Agent-installed: Playwright MCP (documented here, not vendored)",
+  "skills": "./skills/"
+}

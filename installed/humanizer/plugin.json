@@ -1,0 +1,6 @@
+{
+  "name": "humanizer",
+  "version": "1.0.0",
+  "description": "Agent-installed: Humanizer (documented here, not vendored)",
+  "skills": "./skills/"
+}

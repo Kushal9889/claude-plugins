@@ -1,0 +1,6 @@
+{
+  "name": "claudian",
+  "version": "1.0.0",
+  "description": "Agent-installed: Claudian (documented here, not vendored)",
+  "skills": "./skills/"
+}

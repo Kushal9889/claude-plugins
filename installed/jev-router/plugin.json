@@ -1,0 +1,6 @@
+{
+  "name": "jev-router",
+  "version": "1.0.0",
+  "description": "Agent-installed: Jev (jev-router) (documented here, not vendored)",
+  "skills": "./skills/"
+}

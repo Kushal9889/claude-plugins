@@ -1,0 +1,6 @@
+{
+  "name": "ffmpeg",
+  "version": "1.0.0",
+  "description": "Agent-installed: ffmpeg (documented here, not vendored)",
+  "skills": "./skills/"
+}

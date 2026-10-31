@@ -1,0 +1,6 @@
+{
+  "name": "qmd",
+  "version": "1.0.0",
+  "description": "Agent-installed: qmd (documented here, not vendored)",
+  "skills": "./skills/"
+}
