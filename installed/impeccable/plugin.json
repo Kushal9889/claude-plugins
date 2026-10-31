@@ -1,0 +1,6 @@
+{
+  "name": "impeccable",
+  "version": "1.0.0",
+  "description": "Agent-installed: Impeccable (documented here, not vendored)",
+  "skills": "./skills/"
+}

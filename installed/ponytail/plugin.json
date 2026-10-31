@@ -1,0 +1,6 @@
+{
+  "name": "ponytail",
+  "version": "1.0.0",
+  "description": "Agent-installed: Ponytail (documented here, not vendored)",
+  "skills": "./skills/"
+}

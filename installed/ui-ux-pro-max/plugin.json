@@ -1,0 +1,6 @@
+{
+  "name": "ui-ux-pro-max",
+  "version": "1.0.0",
+  "description": "Agent-installed: UI UX Pro Max (documented here, not vendored)",
+  "skills": "./skills/"
+}

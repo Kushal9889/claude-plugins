@@ -1,0 +1,6 @@
+{
+  "name": "diagram-design",
+  "version": "1.0.0",
+  "description": "Agent-installed: Diagram Design (documented here, not vendored)",
+  "skills": "./skills/"
+}

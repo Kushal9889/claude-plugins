@@ -130,3 +130,21 @@ Verification note (cloudflare-mcp): Public match: official cloudflare/mcp-server
 | referral-master | plugin | Instagram post https://www.instagram.com/p/DfGcYAkmuri/ by liamjohnston.ai; upstream https://github.com/Liamrjohnston/referral-master-skill | 2026-10-30 | merlin | Referral Master — ranks existing clients by who to ask for referrals first and drafts the asks; /referral-master | Delete installed/referral-master/ + this row + the registry.json entry |
 
 Verification note (referral-master): install link printed on slide 8 of the post itself; repo verified live with matching description. No Send comment posted.
+| ponytail | plugin | Instagram reel https://www.instagram.com/reel/De4mz5RTxEx/ by thedigidoor (item #02); upstream https://github.com/DietrichGebert/ponytail | 2026-10-31 | merlin | Ponytail — Your Senior Developer | Delete installed/ponytail/ + this row + the registry.json entry |
+| hallmark | plugin | Instagram reel https://www.instagram.com/reel/De4mz5RTxEx/ by thedigidoor (item #03); upstream https://github.com/Nutlope/hallmark | 2026-10-31 | merlin | Hallmark — Replace AI slop designs with creative human design | Delete installed/hallmark/ + this row + the registry.json entry |
+| impeccable | plugin | Instagram reel https://www.instagram.com/reel/De4mz5RTxEx/ by thedigidoor (item #06); upstream https://github.com/pbakaus/impeccable | 2026-10-31 | merlin | Impeccable — Polish interfaces with commands | Delete installed/impeccable/ + this row + the registry.json entry |
+| ui-ux-pro-max | plugin | Instagram reel https://www.instagram.com/reel/De4mz5RTxEx/ by thedigidoor (item #07); upstream https://github.com/nextlevelbuilder/ui-ux-pro-max-skill | 2026-10-31 | merlin | UI UX Pro Max — Generate polished, consistent UI designs | Delete installed/ui-ux-pro-max/ + this row + the registry.json entry |
+| scrapling | plugin | Instagram reel https://www.instagram.com/reel/De4mz5RTxEx/ by thedigidoor (item #09); upstream https://github.com/D4Vinci/Scrapling | 2026-10-31 | merlin | Scrapling — Scrape websites for research insights | Delete installed/scrapling/ + this row + the registry.json entry |
+| diagram-design | plugin | Instagram reel https://www.instagram.com/reel/De4mz5RTxEx/ by thedigidoor (item #10); upstream https://github.com/cathrynlavery/diagram-design | 2026-10-31 | merlin | Diagram Design — Create interactive technical illustrations | Delete installed/diagram-design/ + this row + the registry.json entry |
+
+Verification note (ponytail): Strong public match: DietrichGebert/ponytail (~181k stars) - 'Makes your AI agent think like the laziest senior dev in the room.' Matches the slide's senior-developer framing.
+
+Verification note (hallmark): Strong public match: Nutlope/hallmark (~43k stars) - 'Anti-AI-slop design skill for Claude Code, Cursor, and Codex.'
+
+Verification note (impeccable): Strong public match: pbakaus/impeccable (~97k stars) - 'The design vocabulary for your coding agent.' Third-party 'lite' forks explicitly cite it as the original.
+
+Verification note (ui-ux-pro-max): Strong public match: nextlevelbuilder/ui-ux-pro-max-skill (~143k stars), an AI skill for professional UI/UX design intelligence.
+
+Verification note (scrapling): Strong public match: D4Vinci/Scrapling (~91k stars), adaptive web scraping framework. Also the scraper Liam Johnston's Leadzilla uses.
+
+Verification note (diagram-design): Strong public match: cathrynlavery/diagram-design (~63k stars) - 'Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor...'

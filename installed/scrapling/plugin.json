@@ -1,0 +1,6 @@
+{
+  "name": "scrapling",
+  "version": "1.0.0",
+  "description": "Agent-installed: Scrapling (documented here, not vendored)",
+  "skills": "./skills/"
+}
