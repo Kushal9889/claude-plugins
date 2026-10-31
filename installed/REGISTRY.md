@@ -50,3 +50,23 @@ public on GitHub.
 - **Source:** Instagram reel by @dhairya.myzia — https://www.instagram.com/reel/Deex-AoMcOG/
 - **What it does:** MCP server + CLI that lets a coding agent (Claude Code, Codex, Cursor) look inside an app you do not have source for and explain how a feature works, down to the binary level, then rebuild your own version. Uses Ghidra/Hopper/IDA for native apps and built-in analysis for JS/Electron/.NET/Android/web.
 - **Ready to use:** `npx rea-agents setup (Node.js + npm required; adds REA's MCP server to chosen agents, restart after)`
+
+## 7. Prompt Master (`prompt-master`)
+
+- **Category:** skill
+- **Status:** installed on 2026-10-30 by Merlin (Muse)
+- **Upstream:** https://github.com/nidhinjs/prompt-master
+- **Path:** `installed/prompt-master/`
+- **Source:** Instagram reel by @phanik.ig — https://www.instagram.com/reel/Dcluatktc2Y/
+- **What it does:** Claude skill that fixes your prompt before Claude answers: hand it one messy sentence and it returns a finished prompt specifying the output, what files Claude may touch, and when to stop. Audits against 35 credit-wasting patterns and remembers decisions you have already locked (stack, conventions) so Claude does not contradict them mid-chat. Profiles for 30+ AI tools.
+- **Ready to use:** `Download the repo ZIP from GitHub, then Claude > Customize > Skills > Upload; or clone into ~/.claude/skills. Then type /prompt-master before a request.`
+
+## 8. Find Skills (`find-skills`)
+
+- **Category:** skill
+- **Status:** installed on 2026-10-30 by Merlin (Muse)
+- **Upstream:** https://github.com/vercel-labs/skills
+- **Path:** `installed/find-skills/`
+- **Source:** Instagram reel by @benkimball.ai — https://www.instagram.com/reel/DduqYBaPFFr/
+- **What it does:** Discovery skill by Vercel Labs: when you ask how to do X or whether a skill exists for X, it searches the open agent-skills registry (skills.sh), ranks results by install counts and source reputation, and installs the proven SKILL.md package instead of letting the agent improvise. The most-installed agent skill in the ecosystem.
+- **Ready to use:** `npx skills add https://github.com/vercel-labs/skills --skill find-skills — then just ask Claude for a capability; it wakes up on its own.`
