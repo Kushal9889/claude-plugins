@@ -127,3 +127,6 @@ Verification note (humanizer): Public match: blader/humanizer (~63k stars), agen
 Verification note (leadzilla): Public match: the author's own repo (Liamrjohnston/leadzilla) — 'Find and qualify business leads for a fraction of a cent.' Small repo (2 stars); treat as early-stage.
 
 Verification note (cloudflare-mcp): Public match: official cloudflare/mcp-server-cloudflare. Slide description is loose — the MCP manages Cloudflare resources; actual site deployment still uses Wrangler/Pages.
+| referral-master | plugin | Instagram post https://www.instagram.com/p/DfGcYAkmuri/ by liamjohnston.ai; upstream https://github.com/Liamrjohnston/referral-master-skill | 2026-10-30 | merlin | Referral Master — ranks existing clients by who to ask for referrals first and drafts the asks; /referral-master | Delete installed/referral-master/ + this row + the registry.json entry |
+
+Verification note (referral-master): install link printed on slide 8 of the post itself; repo verified live with matching description. No Send comment posted.

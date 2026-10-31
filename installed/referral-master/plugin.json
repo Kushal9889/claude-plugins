@@ -1,0 +1,6 @@
+{
+  "name": "referral-master",
+  "version": "1.0.0",
+  "description": "Agent-installed: Referral Master Claude skill (documented here, not vendored)",
+  "skills": "./skills/"
+}

@@ -461,6 +461,23 @@
       "verification": "Public match: official cloudflare/mcp-server-cloudflare. Slide description is loose \u2014 the MCP manages Cloudflare resources; actual site deployment still uses Wrangler/Pages. DM payload unverified (Skills comment gate, never posted).",
       "removal": "Delete installed/cloudflare-mcp/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
       "status": "installed"
+    },
+    {
+      "id": "referral-master",
+      "name": "referral-master",
+      "category": "plugin",
+      "source_type": "instagram-post",
+      "source_url": "https://www.instagram.com/p/DfGcYAkmuri/",
+      "source_author": "liamjohnston.ai",
+      "upstream_url": "https://github.com/Liamrjohnston/referral-master-skill",
+      "installed_by": "merlin",
+      "installed_at": "2026-10-30",
+      "description": "Referral Master \u2014 Claude skill by Liam Johnston that gets service businesses more referrals from existing clients: ranks who to ask first (ASK NOW / THANK FIRST / PARTNER / FIX FIRST / LEAVE OUT), drafts the ask messages, and handles rewards and reviews. Invoked as /referral-master.",
+      "install_method": "git clone https://github.com/Liamrjohnston/referral-master-skill and add the skill to Claude Code per the repo README (slide instruction: 'Clone this and add the skill').",
+      "path": "installed/referral-master/",
+      "verification": "Verified from the post itself: slide 8 prints the install link github.com/Liamrjohnston/referral-master-skill, and the repo exists with a matching description. No 'Send' comment was posted; the DM 'full guide' is unverified and unnecessary for the skill install.",
+      "removal": "Delete installed/referral-master/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
+      "status": "installed"
     }
   ]
 }
