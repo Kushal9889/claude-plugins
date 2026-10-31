@@ -1,0 +1,11 @@
+{
+  "name": "find-skills",
+  "display_name": "Find Skills",
+  "type": "skill",
+  "upstream": "https://github.com/vercel-labs/skills",
+  "installed_by": "Merlin (Muse)",
+  "installed_on": "2026-10-30",
+  "status": "installed",
+  "source_reel": "https://www.instagram.com/reel/DduqYBaPFFr/",
+  "source_author": "benkimball.ai"
+}
