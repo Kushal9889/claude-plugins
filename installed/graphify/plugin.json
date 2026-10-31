@@ -1,0 +1,6 @@
+{
+  "name": "graphify",
+  "version": "1.0.0",
+  "description": "Agent-installed: Graphify (documented here, not vendored)",
+  "skills": "./skills/"
+}

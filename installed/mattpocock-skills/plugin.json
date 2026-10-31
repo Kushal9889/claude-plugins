@@ -1,0 +1,6 @@
+{
+  "name": "mattpocock-skills",
+  "version": "1.0.0",
+  "description": "Agent-installed: Matt Pocock Skills (documented here, not vendored)",
+  "skills": "./skills/"
+}

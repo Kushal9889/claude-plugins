@@ -148,3 +148,21 @@ Verification note (ui-ux-pro-max): Strong public match: nextlevelbuilder/ui-ux-p
 Verification note (scrapling): Strong public match: D4Vinci/Scrapling (~91k stars), adaptive web scraping framework. Also the scraper Liam Johnston's Leadzilla uses.
 
 Verification note (diagram-design): Strong public match: cathrynlavery/diagram-design (~63k stars) - 'Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor...'
+| mattpocock-skills | plugin | Instagram post https://www.instagram.com/p/DeVyGbyJGcl/ by earlystartupdays (rank #2); upstream https://github.com/mattpocock/skills | 2026-10-31 | merlin | Matt Pocock Skills — +29,787 stars gained in Sep 2026 | Delete installed/mattpocock-skills/ + this row + the registry.json entry |
+| i-have-adhd | plugin | Instagram post https://www.instagram.com/p/DeVyGbyJGcl/ by earlystartupdays (rank #3); upstream https://github.com/ayghri/i-have-adhd | 2026-10-31 | merlin | I Have ADHD — +26,258 stars gained in Sep 2026 | Delete installed/i-have-adhd/ + this row + the registry.json entry |
+| security-audit-skill | plugin | Instagram post https://www.instagram.com/p/DeVyGbyJGcl/ by earlystartupdays (rank #4); upstream https://github.com/cloudflare/security-audit-skill | 2026-10-31 | merlin | Security Audit Skill — +20,148 stars gained in Sep 2026 | Delete installed/security-audit-skill/ + this row + the registry.json entry |
+| superpowers | plugin | Instagram post https://www.instagram.com/p/DeVyGbyJGcl/ by earlystartupdays (rank #5); upstream https://github.com/obra/superpowers | 2026-10-31 | merlin | Superpowers — +13,841 stars gained in Sep 2026 | Delete installed/superpowers/ + this row + the registry.json entry |
+| graphify | plugin | Instagram post https://www.instagram.com/p/DeVyGbyJGcl/ by earlystartupdays (rank #8); upstream https://github.com/Graphify-Labs/graphify | 2026-10-31 | merlin | Graphify — +9,651 stars gained in Sep 2026 | Delete installed/graphify/ + this row + the registry.json entry |
+| addyosmani-agent-skills | plugin | Instagram post https://www.instagram.com/p/DeVyGbyJGcl/ by earlystartupdays (rank #9); upstream https://github.com/addyosmani/agent-skills | 2026-10-31 | merlin | Addy Osmani Skills — +8,880 stars gained in Sep 2026 | Delete installed/addyosmani-agent-skills/ + this row + the registry.json entry |
+
+Verification note (mattpocock-skills): Strong public match: mattpocock/skills (~308k stars) - 'Skills for Real Engineers.'
+
+Verification note (i-have-adhd): Strong public match: ayghri/i-have-adhd (~60k stars) - 'A skill to stop your coding agent from burying the answer. ADHD-friendly output.'
+
+Verification note (security-audit-skill): Strong public match: cloudflare/security-audit-skill (~55k stars), official Cloudflare repo - multi-phase security audits with verified, machine-readable findings.
+
+Verification note (superpowers): Strong public match: obra/superpowers (~310k stars) - 'An agentic skills framework & software development methodology.'
+
+Verification note (graphify): Strong public match: Graphify-Labs/graphify (~140k stars) with the exact knowledge-graph description.
+
+Verification note (addyosmani-agent-skills): Strong public match: addyosmani/agent-skills (~112k stars) - 'Production-grade engineering skills for AI coding agents.'

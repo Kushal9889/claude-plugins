@@ -1,0 +1,6 @@
+{
+  "name": "security-audit-skill",
+  "version": "1.0.0",
+  "description": "Agent-installed: Security Audit Skill (documented here, not vendored)",
+  "skills": "./skills/"
+}

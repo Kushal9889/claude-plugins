@@ -1,0 +1,6 @@
+{
+  "name": "addyosmani-agent-skills",
+  "version": "1.0.0",
+  "description": "Agent-installed: Addy Osmani Skills (documented here, not vendored)",
+  "skills": "./skills/"
+}

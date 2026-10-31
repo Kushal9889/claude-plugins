@@ -1,0 +1,6 @@
+{
+  "name": "i-have-adhd",
+  "version": "1.0.0",
+  "description": "Agent-installed: I Have ADHD (documented here, not vendored)",
+  "skills": "./skills/"
+}
