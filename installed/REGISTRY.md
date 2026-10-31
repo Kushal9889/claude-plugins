@@ -80,7 +80,6 @@ public on GitHub.
 | playwright-mcp | plugin | Instagram post https://www.instagram.com/p/DfI_L5VDohx/ by liamjohnston.ai (item 13); upstream https://github.com/microsoft/playwright-mcp | 2026-10-30 | merlin | Playwright MCP — Drives a real browser | Delete installed/playwright-mcp/ + this row + the registry.json entry |
 | last30days | plugin | Instagram post https://www.instagram.com/p/DfI_L5VDohx/ by liamjohnston.ai (item 15); upstream https://github.com/mvanhorn/last30days-skill | 2026-10-30 | merlin | last30days — What people said this month | Delete installed/last30days/ + this row + the registry.json entry |
 | yt-dlp | plugin | Instagram post https://www.instagram.com/p/DfI_L5VDohx/ by liamjohnston.ai (item 16); upstream https://github.com/yt-dlp/yt-dlp | 2026-10-30 | merlin | yt-dlp — Saves videos from most sites | Delete installed/yt-dlp/ + this row + the registry.json entry |
-| jev-router | plugin | Instagram post https://www.instagram.com/p/DfI_L5VDohx/ by liamjohnston.ai (item 17); upstream https://github.com/gargpratyush/jev-router | 2026-10-30 | merlin | Jev (jev-router) — Sorts and scores for pennies | Delete installed/jev-router/ + this row + the registry.json entry |
 | poppler | plugin | Instagram post https://www.instagram.com/p/DfI_L5VDohx/ by liamjohnston.ai (item 18); upstream https://gitlab.freedesktop.org/poppler/poppler | 2026-10-30 | merlin | Poppler — Pulls text from PDFs | Delete installed/poppler/ + this row + the registry.json entry |
 | qmd | plugin | Instagram post https://www.instagram.com/p/DfI_L5VDohx/ by liamjohnston.ai (item 19); upstream https://github.com/tobi/qmd | 2026-10-30 | merlin | qmd — Searches your notes, offline | Delete installed/qmd/ + this row + the registry.json entry |
 | remotion | plugin | Instagram post https://www.instagram.com/p/DfI_L5VDohx/ by liamjohnston.ai (item 21); upstream https://github.com/remotion-dev/remotion | 2026-10-30 | merlin | Remotion — Motion graphics from code | Delete installed/remotion/ + this row + the registry.json entry |
@@ -110,7 +109,6 @@ Verification note (last30days): Public match: mvanhorn/last30days-skill (~66k st
 
 Verification note (yt-dlp): Canonical tool match: official yt-dlp/yt-dlp repo.
 
-Verification note (jev-router): Partial public match: gargpratyush/jev-router (~640 stars) routes tasks to the cheapest Claude model; consistent with the earlier 'Jev' routing-layer finding (DeTq2IQk1cn) that Jev is a routing concept, not one canonical product. Treat as best public match, not verified as the author's exact tool.
 
 Verification note (poppler): Canonical tool match: Poppler is the standard open-source PDF text extractor.
 

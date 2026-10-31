@@ -310,23 +310,6 @@
       "status": "installed"
     },
     {
-      "id": "jev-router",
-      "name": "jev-router",
-      "category": "plugin",
-      "source_type": "instagram-post",
-      "source_url": "https://www.instagram.com/p/DfI_L5VDohx/",
-      "source_author": "liamjohnston.ai",
-      "upstream_url": "https://github.com/gargpratyush/jev-router",
-      "installed_by": "merlin",
-      "installed_at": "2026-10-30",
-      "description": "Jev (jev-router) \u2014 From Liam Johnston's '50 Claude installs' list (slide item 17: \"Sorts and scores for pennies\").",
-      "install_method": "Clone upstream and follow its README to add the router to Claude Code.",
-      "path": "installed/jev-router/",
-      "verification": "Partial public match: gargpratyush/jev-router (~640 stars) routes tasks to the cheapest Claude model; consistent with the earlier 'Jev' routing-layer finding (DeTq2IQk1cn) that Jev is a routing concept, not one canonical product. Treat as best public match, not verified as the author's exact tool. DM payload unverified (Skills comment gate, never posted).",
-      "removal": "Delete installed/jev-router/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
-      "status": "installed"
-    },
-    {
       "id": "poppler",
       "name": "poppler",
       "category": "plugin",
