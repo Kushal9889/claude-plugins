@@ -104,6 +104,40 @@
       "verification": "Strong public function match: caption describes pointing a coding agent at any app to learn how it works inside and rebuild liked features without stealing source; REA matches exactly and was GitHub #1 trending in Oct 2026. Reel cites ~70,000 stars; Oct 2026 coverage reported REA past 109,000 by Oct 12. The reel's DM payload itself is unverified (no comment posted).",
       "removal": "Delete installed/rea/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
       "status": "installed"
+    },
+    {
+      "id": "prompt-master",
+      "name": "Prompt Master",
+      "category": "skill",
+      "source_type": "instagram-reel",
+      "source_url": "https://www.instagram.com/reel/Dcluatktc2Y/",
+      "source_author": "phanik.ig",
+      "upstream_url": "https://github.com/nidhinjs/prompt-master",
+      "installed_by": "merlin",
+      "installed_at": "2026-10-30",
+      "description": "Claude skill that fixes your prompt before Claude answers: hand it one messy sentence and it returns a finished prompt specifying the output, what files Claude may touch, and when to stop. Audits against 35 credit-wasting patterns and remembers decisions you have already locked (stack, conventions) so Claude does not contradict them mid-chat. Profiles for 30+ AI tools.",
+      "install_method": "Download the repo ZIP from GitHub, then Claude > Customize > Skills > Upload; or clone into ~/.claude/skills. Then type /prompt-master before a request.",
+      "path": "installed/prompt-master/",
+      "verification": "Exact public match: reel states the name Prompt Master, 11,000 GitHub stars, 35 credit-wasting patterns, upload via Customize > Skills, and decision memory \u2014 all confirmed in the project's own setup guide and repo (nidhinjs/prompt-master, MIT). Upstream SKILL.md copied verbatim. The reel's DM payload itself is not involved (no gate used).",
+      "removal": "Delete installed/prompt-master/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
+      "status": "installed"
+    },
+    {
+      "id": "find-skills",
+      "name": "Find Skills",
+      "category": "skill",
+      "source_type": "instagram-reel",
+      "source_url": "https://www.instagram.com/reel/DduqYBaPFFr/",
+      "source_author": "benkimball.ai",
+      "upstream_url": "https://github.com/vercel-labs/skills",
+      "installed_by": "merlin",
+      "installed_at": "2026-10-30",
+      "description": "Discovery skill by Vercel Labs: when you ask how to do X or whether a skill exists for X, it searches the open agent-skills registry (skills.sh), ranks results by install counts and source reputation, and installs the proven SKILL.md package instead of letting the agent improvise. The most-installed agent skill in the ecosystem.",
+      "install_method": "npx skills add https://github.com/vercel-labs/skills --skill find-skills \u2014 then just ask Claude for a capability; it wakes up on its own.",
+      "path": "installed/find-skills/",
+      "verification": "Probable public match: the reel's caption does not name the skill ('Claude has a skill that helps you find the RIGHT Claude skill for almost anything'); find-skills by vercel-labs is the canonical skill with exactly that function and the ecosystem's #1 install count. Upstream SKILL.md copied verbatim. Recorded as a function match, not a name match.",
+      "removal": "Delete installed/find-skills/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
+      "status": "installed"
     }
   ]
 }
