@@ -164,3 +164,6 @@ Verification note (superpowers): Strong public match: obra/superpowers (~310k st
 Verification note (graphify): Strong public match: Graphify-Labs/graphify (~140k stars) with the exact knowledge-graph description.
 
 Verification note (addyosmani-agent-skills): Strong public match: addyosmani/agent-skills (~112k stars) - 'Production-grade engineering skills for AI coding agents.'
+| roast-room | skill | Instagram reel https://www.instagram.com/reel/DfEt6OONia7/ by 100xengineers; upstream https://github.com/nateherkai/roast-room | 2026-11-01 | merlin | Roast Room — a council of advisor personas roasts your decision and returns a scored verdict (/roast-room <decision>) | Delete installed/roast-room/ + this row + the registry.json entry |
+
+Verification note (roast-room): Identity verified: the upstream repo URL is named in the source reel itself (reel by @100xengineers, posted 2026-10-29), and nateherkai/roast-room has 1,507 stars, above Kushal's 1,000-star baseline. Public repo layout matches the reel: .claude/skills/roast-room/SKILL.md plus .claude/agents/council-*.md.

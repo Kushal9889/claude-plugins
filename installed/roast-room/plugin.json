@@ -1,0 +1,6 @@
+{
+  "name": "roast-room",
+  "version": "1.0.0",
+  "description": "Agent-installed: Roast Room (documented here, not vendored)",
+  "skills": "./skills/"
+}
