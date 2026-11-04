@@ -1,0 +1,6 @@
+{
+  "name": "claude-mem",
+  "version": "1.0.0",
+  "description": "Agent-installed: Claude-Mem (documented here, not vendored)",
+  "skills": "./skills/"
+}

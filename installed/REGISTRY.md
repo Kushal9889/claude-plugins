@@ -167,3 +167,15 @@ Verification note (addyosmani-agent-skills): Strong public match: addyosmani/age
 | roast-room | skill | Instagram reel https://www.instagram.com/reel/DfEt6OONia7/ by 100xengineers; upstream https://github.com/nateherkai/roast-room | 2026-11-01 | merlin | Roast Room — a council of advisor personas roasts your decision and returns a scored verdict (/roast-room <decision>) | Delete installed/roast-room/ + this row + the registry.json entry |
 
 Verification note (roast-room): Identity verified: the upstream repo URL is named in the source reel itself (reel by @100xengineers, posted 2026-10-29), and nateherkai/roast-room has 1,507 stars, above Kushal's 1,000-star baseline. Public repo layout matches the reel: .claude/skills/roast-room/SKILL.md plus .claude/agents/council-*.md.
+| claude-mem | plugin | Instagram post https://www.instagram.com/p/DfR2CbKTjdO/ by shwetacreates; upstream https://github.com/thedotmack/claude-mem | 2026-11-04 | merlin | Claude-Mem — persistent session memory for coding agents (hooks capture sessions, compressed context injected into the next) | Delete installed/claude-mem/ + this row + the registry.json entry |
+
+Verification note (claude-mem): Upstream is the creator's own repo (Alex Newman, @thedotmack); ~112K GitHub stars checked 2026-11-04, far above Kushal's 1,000-star baseline. Listed as #55 (Memory & Tokens) in the source guide.
+| ecc | plugin | Instagram post https://www.instagram.com/p/DfR2CbKTjdO/ by shwetacreates; upstream https://github.com/affaan-m/ECC | 2026-11-04 | merlin | ECC — 68 agents + ~292 skills harness system for Claude Code (install from official repo only) | Delete installed/ecc/ + this row + the registry.json entry |
+
+Verification note (ecc): Upstream is the author's own repo (Affaan Mustafa, @affaan-m); ~296K GitHub stars checked 2026-11-04, far above Kushal's 1,000-star baseline. Listed as #34 (Workflow Discipline & Dev) in the source guide.
+| compound-engineering | plugin | Instagram post https://www.instagram.com/p/DfR2CbKTjdO/ by shwetacreates; upstream https://github.com/EveryInc/compound-engineering-plugin | 2026-11-04 | merlin | Compound Engineering — Every's plan/work/review/compound workflow plugin (37 skills) | Delete installed/compound-engineering/ + this row + the registry.json entry |
+
+Verification note (compound-engineering): Upstream is Every Inc's own repo; ~17.7K GitHub stars checked 2026-11-04, above Kushal's 1,000-star baseline. Listed as #33 (Workflow Discipline & Dev) in the source guide.
+| context7 | mcp | Instagram post https://www.instagram.com/p/DfR2CbKTjdO/ by shwetacreates; upstream https://github.com/upstash/context7 | 2026-11-04 | merlin | Context7 — Upstash MCP server for current, version-matched library docs in the prompt | Delete installed/context7/ + this row + the registry.json entry |
+
+Verification note (context7): Upstream is Upstash's own repo; ~62K GitHub stars checked 2026-11-04, far above Kushal's 1,000-star baseline. Listed as #40 (Docs & Browser Automation) in the source guide.

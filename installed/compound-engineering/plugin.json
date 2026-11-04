@@ -1,0 +1,6 @@
+{
+  "name": "compound-engineering",
+  "version": "1.0.0",
+  "description": "Agent-installed: Compound Engineering (documented here, not vendored)",
+  "skills": "./skills/"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "context7",
+  "version": "1.0.0",
+  "description": "Agent-installed: Context7 (documented here, not vendored)",
+  "skills": "./skills/"
+}
