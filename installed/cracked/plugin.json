@@ -1,0 +1,6 @@
+{
+  "name": "cracked",
+  "version": "1.0.0",
+  "description": "Agent-installed: Cracked (documented here, not vendored)",
+  "skills": "./skills/"
+}
