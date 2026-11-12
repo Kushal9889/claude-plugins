@@ -1,0 +1,6 @@
+{
+  "name": "higgsfield-skills",
+  "version": "1.0.0",
+  "description": "Agent-installed: Higgsfield Skills (documented here, not vendored)",
+  "skills": "./skills/"
+}
