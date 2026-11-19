@@ -1,0 +1,6 @@
+{
+  "name": "modern-web-guidance",
+  "version": "1.0.0",
+  "description": "Agent-installed: Modern Web Guidance (Google Chrome) (documented here, not vendored)",
+  "skills": "./skills/"
+}

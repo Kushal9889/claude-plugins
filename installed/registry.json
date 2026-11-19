@@ -869,6 +869,23 @@
       "verification": "Install route confirmed verbatim against the live repo README Quick start on 2026-11-18: git clone, 'claude plugin marketplace add \"$PWD/TokenEconomizer\"', 'claude plugin install tokeneconomizer@tokeneconomizer'; the repo root carries a .claude-plugin directory and a plugin/ folder. 7,678 GitHub stars and MIT license read from the repo page 2026-11-18; created 2026-10-13, pushed the same day (GitHub skills lane) - above Kushal's 1,000-star baseline. No account, API key or payment required; the README states it never handles credentials and learned data stays in ~/.tokeneconomizer. NAME WARNING: this is NOT the existing registry entry 'token-optimizer' (#2) - a different project that happens to sit in the same problem space; do not merge or confuse the two entries. Surfaced by the GitHub skills lane of the 2026-11-18 mining sweep; registry #51.",
       "removal": "Delete installed/tokeneconomizer/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
       "status": "staged"
+    },
+    {
+      "id": "modern-web-guidance",
+      "name": "Modern Web Guidance (Google Chrome)",
+      "category": "skill",
+      "source_type": "github-mining",
+      "source_url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "source_author": "GoogleChrome (Chrome / Edge / Firefox / MDN stewards)",
+      "upstream_url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "installed_by": "merlin",
+      "installed_at": "2026-11-18",
+      "description": "Skills that embed modern web-platform expertise into coding agents, stewarded by the Google Chrome, Microsoft Edge, Mozilla Firefox and MDN teams. 262 expert-curated guides (CSS/layout, HTML/DOM, JavaScript/APIs, performance, accessibility, forms, built-in AI, WebMCP and more), eval-pruned so agents stop emitting legacy patterns and reach for native platform APIs with responsible fallbacks. The skill's CLI does offline local semantic search over the guides (no network calls, no API keys) and injects only the targeted guide into context. Evals show +28 to +36pp guided uplift across agents. Code Apache-2.0; guide content CC-BY 4.0.",
+      "install_method": "Claude Code plugin route: /plugin marketplace add GoogleChrome/modern-web-guidance, then /plugin install modern-web-guidance@googlechrome; then open /plugin, select the GoogleChrome marketplace, enable AutoUpdate, and /reload-plugins. Quickstart alternative: npx modern-web-guidance@latest install (interactive wizard; --choose selects skill packs). Also via skills CLI: npx skills add GoogleChrome/modern-web-guidance. Install from the googlechrome marketplace, NOT claude-plugins-official (stale there since Oct 12). Optional: set DISABLE_TELEMETRY=1 to opt out of anonymous usage telemetry.",
+      "path": "installed/modern-web-guidance/",
+      "verification": "Install route confirmed verbatim against the live repo README on 2026-11-18: the 'Claude Code Plugin' section of Alternative Installation Methods documents '/plugin marketplace add GoogleChrome/modern-web-guidance' and '/plugin install modern-web-guidance@googlechrome', and the Quickstart documents 'npx modern-web-guidance@latest install'; the repo root carries .claude-plugin and skills directories. 22,947 GitHub stars and Apache License 2.0 read from the repo page 2026-11-18 (README refines: code Apache-2.0, guides CC-BY 4.0); pushed 2026-11-17 (GitHub skills lane) - far above Kushal's 1,000-star baseline. No account or payment required. Two flags, neither blocking: (1) Google collects anonymous telemetry by default (install counts, calling agent name, guide retrieval IDs, CLI search queries - raw prompts NOT collected); opt out with DISABLE_TELEMETRY=1. (2) The built-in claude-plugins-official marketplace carries a stale copy (v0.0.194, frozen Oct 12) - the README's Updating section says to switch to the googlechrome marketplace, which the staged install route does. Surfaced by the GitHub skills lane of the 2026-11-18 mining sweep; registry #52.",
+      "removal": "Delete installed/modern-web-guidance/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
+      "status": "staged"
     }
   ]
 }
