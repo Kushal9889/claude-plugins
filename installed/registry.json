@@ -886,6 +886,23 @@
       "verification": "Install route confirmed verbatim against the live repo README on 2026-11-18: the 'Claude Code Plugin' section of Alternative Installation Methods documents '/plugin marketplace add GoogleChrome/modern-web-guidance' and '/plugin install modern-web-guidance@googlechrome', and the Quickstart documents 'npx modern-web-guidance@latest install'; the repo root carries .claude-plugin and skills directories. 22,947 GitHub stars and Apache License 2.0 read from the repo page 2026-11-18 (README refines: code Apache-2.0, guides CC-BY 4.0); pushed 2026-11-17 (GitHub skills lane) - far above Kushal's 1,000-star baseline. No account or payment required. Two flags, neither blocking: (1) Google collects anonymous telemetry by default (install counts, calling agent name, guide retrieval IDs, CLI search queries - raw prompts NOT collected); opt out with DISABLE_TELEMETRY=1. (2) The built-in claude-plugins-official marketplace carries a stale copy (v0.0.194, frozen Oct 12) - the README's Updating section says to switch to the googlechrome marketplace, which the staged install route does. Surfaced by the GitHub skills lane of the 2026-11-18 mining sweep; registry #52.",
       "removal": "Delete installed/modern-web-guidance/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
       "status": "staged"
+    },
+    {
+      "id": "terminal-phone",
+      "name": "terminal-phone",
+      "category": "mcp",
+      "source_type": "instagram-reel",
+      "source_url": "https://github.com/govijr/terminal-phone",
+      "source_author": "govijr (via @aiadventureryt reel)",
+      "upstream_url": "https://github.com/govijr/terminal-phone",
+      "installed_by": "merlin",
+      "installed_at": "2026-11-19",
+      "description": "An interactive iPhone inside the terminal, shared with AI agents. terminal-phone embeds an iOS Simulator, or a paired real iPhone, inline in the terminal (Ghostty, kitty, iTerm2, WezTerm, Warp, VS Code) or in a native split beside the shell: the user clicks, types, drags and scrolls, and coding agents (Claude Code, Cursor, Codex) drive the same phone through a JSON CLI or an MCP server with observe / act / wait primitives, accessibility element references that reject stale screens, postcondition checks, and receipts that never replay uncertain input - so an agent can build an app, install it, tap through it, verify the result, and capture App Store screenshots and preview videos at Apple's accepted sizes. Real iPhones connect via WebDriverAgent over USB or Wi-Fi and stay view-only until the owner allows control; the passcode is never bypassed. MIT.",
+      "install_method": "Claude Code plugin route: /plugin marketplace add govijr/terminal-phone, then install the terminal-phone plugin (MCP tools plus a skill that teaches the agent to observe, act and verify). MCP-only route: terminal-phone mcp install (or --claude / --cursor / --codex; --print shows the entries). Standalone: the repo's install.sh curl one-liner or git clone and build (see upstream README). Requires an Apple silicon Mac with macOS 15 or later and Xcode 26 or later installed and opened once.",
+      "path": "installed/terminal-phone/",
+      "verification": "Repo named on screen in the source reel (@aiadventureryt 'AI Adventurer', posted 2026-11-11, gate 'IPHONE' NOT used) and confirmed against the canonical repo README read 2026-11-19: MIT license, release v0.4.0 (4 releases), repo created 2026-11-03 - a two-week-old, small project; star count is below Kushal's 1,000-star baseline and it is admitted under the identity-verified exemption (repo printed in the source itself). Flags, none blocking: (1) release binaries are built by GitHub Actions and are NOT Developer ID signed; (2) the standalone install is a curl|bash one-liner - prefer the plugin route or clone-and-build; (3) iOS only, no Android - Kushal's phone is a Samsung S25, so his use is the iOS Simulator path (EST mobile app testing), not real-device control; (4) overlap: sits in the phone-control MCP space surfaced by the 2026-11-18 mining sweep (Pinky, agent-device, mirroir-mcp, none installed) - its delta is the terminal-native, simulator-first workflow plus stale-reference rejection and postcondition receipts. Registry #53, staged locally, push pending Kushal's approval alongside #48-#52.",
+      "removal": "Delete installed/terminal-phone/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
+      "status": "staged"
     }
   ]
 }

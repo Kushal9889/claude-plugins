@@ -1,0 +1,6 @@
+{
+  "name": "terminal-phone",
+  "version": "1.0.0",
+  "description": "Agent-installed: terminal-phone (documented here, not vendored)",
+  "skills": "./skills/"
+}
