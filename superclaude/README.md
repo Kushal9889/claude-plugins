@@ -52,8 +52,7 @@ Utilities: `agent`, `index-repo`, `git`, `task`, `workflow`, `spawn`, `load`, `s
 | Event | Behavior |
 |-------|----------|
 | `SessionStart` | Initialize session context |
-| `Stop` | Check for uncommitted changes and incomplete tasks |
-| `PostToolUse` (Write/Edit) | Verify edit correctness |
+| `Stop` | `scripts/stop-check.sh`: blocks once if git shows uncommitted files; never loops (`stop_hook_active`) |
 
 ### MCP Servers
 

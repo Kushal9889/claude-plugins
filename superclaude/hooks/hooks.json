@@ -6,7 +6,7 @@
           {
             "type": "command",
             "command": "${CLAUDE_PLUGIN_ROOT}/scripts/session-init.sh",
-            "timeout": 10000
+            "timeout": 10
           }
         ]
       }
@@ -15,19 +15,9 @@
       {
         "hooks": [
           {
-            "type": "prompt",
-            "prompt": "Before ending, check if there are uncommitted changes or incomplete tasks. If so, briefly note what remains to be done."
-          }
-        ]
-      }
-    ],
-    "PostToolUse": [
-      {
-        "matcher": "Write|Edit",
-        "hooks": [
-          {
-            "type": "prompt",
-            "prompt": "Verify the edit was correct: check for syntax errors, missing imports, or broken logic in the changed file. If issues found, fix them immediately."
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/stop-check.sh",
+            "timeout": 10
           }
         ]
       }
