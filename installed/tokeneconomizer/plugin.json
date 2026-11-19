@@ -1,0 +1,6 @@
+{
+  "name": "tokeneconomizer",
+  "version": "1.0.0",
+  "description": "Agent-installed: TokenEconomizer (Microsoft) (documented here, not vendored)",
+  "skills": "./skills/"
+}

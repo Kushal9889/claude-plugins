@@ -1,0 +1,13 @@
+# tokeneconomizer (agent-installed)
+
+- **What:** Microsoft Research plugin for Claude Code (also Codex, Copilot CLI, Pi) that cuts coding-agent cost in repositories you work in repeatedly, without changing the agent. Three mechanisms learned across a repo's sessions: micro-skills (repo facts confirmed by repeated sessions, stated at session start), tool pruning (tools that go unused are left out of later sessions via the agent's own settings), and a failure-loop guard (a judge model redirects a stuck turn, never stops it). Measured on SWE-Bench: 18.4-30.9% lower mean cost across five agent-model combinations. Everything it learns stays on your machine in ~/.tokeneconomizer; its model calls run through your own agent login. MIT.
+- **Source:** GitHub mining sweep 2026-11-18 (GitHub skills lane); upstream microsoft/TokenEconomizer.
+- **Upstream:** https://github.com/microsoft/TokenEconomizer
+- **Category:** plugin
+- **Installed by:** merlin
+- **Installed at:** 2026-11-18
+- **Install method:** Claude Code route (clone must stay in place - the plugin runs from the clone): git clone https://github.com/microsoft/TokenEconomizer.git, then claude plugin marketplace add "$PWD/TokenEconomizer", then claude plugin install tokeneconomizer@tokeneconomizer. Start claude, trust the folder, run /tokeneconomizer:status; once per machine (and after Claude Code updates) run /tokeneconomizer:toolprune refresh-catalog. Requires Python 3.10+ on PATH; no API key of its own, any plan or login works. See skills/tokeneconomizer/SKILL.md.
+- **Verification:** Install route confirmed verbatim against the live repo README Quick start on 2026-11-18: git clone, 'claude plugin marketplace add "$PWD/TokenEconomizer"', 'claude plugin install tokeneconomizer@tokeneconomizer'; the repo root carries a .claude-plugin directory and a plugin/ folder. 7,678 GitHub stars and MIT license read from the repo page 2026-11-18; created 2026-10-13, pushed the same day (GitHub skills lane) - above Kushal's 1,000-star baseline. No account, API key or payment required; the README states it never handles credentials and learned data stays in ~/.tokeneconomizer. NAME WARNING: this is NOT the existing registry entry 'token-optimizer' (#2) - a different project that happens to sit in the same problem space; do not merge or confuse the two entries. Surfaced by the GitHub skills lane of the 2026-11-18 mining sweep; registry #51.
+- **Removal:** Delete this directory and remove the tokeneconomizer entry from
+  installed/registry.json and installed/REGISTRY.md, then append a
+  removal event to installed/history.jsonl.
