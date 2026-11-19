@@ -818,6 +818,23 @@
       "verification": "Identity resolved from multiple independent sources, not the reel alone: the reel's caption names Agentation and its audio track is titled 'GitHub repo'; a curated design-engineering resource (checked against the live repo, Sep 2026), the deploychan MCP directory and third-party skill wrappers all resolve Agentation to benjitaylor/agentation, original work (c) Benji Taylor. 5,413 GitHub stars checked 2026-11-15 via the GitHub API - above Kushal's 1,000-star baseline, no exemption needed. Last push 2026-09-22. License: PolyForm Shield 1.0.0 per the repo and curated sources (GitHub API reports NOASSERTION): free for internal use; use in a competing product / commercial redistribution is restricted. A maintained fork exists (alexgorbatchev/agentation, with @alexgorbatchev/agentation-cli local-server packages); the original benjitaylor repo is canonical. The reel's 'comment PDF' gate was NOT used - no comment posted; the full setup is published openly in the repo README and at agentation.com.",
       "removal": "Delete installed/agentation/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
       "status": "installed"
+    },
+    {
+      "id": "anthropic-agent-skills",
+      "name": "Anthropic Agent Skills (official)",
+      "category": "skill",
+      "source_type": "github-mining",
+      "source_url": "https://github.com/anthropics/skills",
+      "source_author": "anthropics",
+      "upstream_url": "https://github.com/anthropics/skills",
+      "installed_by": "merlin",
+      "installed_at": "2026-11-18",
+      "description": "Anthropic's official Agent Skills library: 19 skills packaged as plugins in the anthropic-agent-skills marketplace, spanning creative/design, development/technical, enterprise/communication and the production document skills (docx, pdf, pptx, xlsx) that power Claude's own document features, plus skill-creator and an mcp-builder skill. The canonical source most third-party skill packs copy. Skills are folders with a SKILL.md that Claude loads dynamically for specialized, repeatable tasks.",
+      "install_method": "In Claude Code: /plugin marketplace add anthropics/skills, then /plugin install document-skills@anthropic-agent-skills (the production document skills) and/or /plugin install example-skills@anthropic-agent-skills (the example set). No account, API key or payment beyond the existing Claude subscription.",
+      "path": "installed/anthropic-agent-skills/",
+      "verification": "Install route confirmed verbatim against the live repo README on 2026-11-18: it documents '/plugin marketplace add anthropics/skills', names the marketplace 'anthropic-agent-skills' and the plugins 'document-skills' and 'example-skills', with the exact direct-install commands staged here; the repo root carries a .claude-plugin marketplace directory. 197,281 GitHub stars read from the repo page 2026-11-18 (mining lanes reported 197,278 the same evening) - far above Kushal's 1,000-star baseline, and identity is first-party (Anthropic's own org). License: no single top-level LICENSE file; the README states many skills are Apache 2.0 and that the document skills (docx/pdf/pptx/xlsx) are also Apache 2.0; a THIRD_PARTY_NOTICES.md is included - treat licensing as per-skill, predominantly Apache 2.0. Surfaced independently by three mining lanes (GitHub skills, YouTube/Reddit/HN, star-tracker) in the 2026-11-18 sweep; registry #49.",
+      "removal": "Delete installed/anthropic-agent-skills/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
+      "status": "staged"
     }
   ]
 }

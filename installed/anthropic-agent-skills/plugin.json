@@ -1,0 +1,6 @@
+{
+  "name": "anthropic-agent-skills",
+  "version": "1.0.0",
+  "description": "Agent-installed: Anthropic Agent Skills (official) (documented here, not vendored)",
+  "skills": "./skills/"
+}
