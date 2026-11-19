@@ -801,6 +801,23 @@
       "verification": "Identity verified from the source itself: slide 1 of the carousel is the repo's own Serrasal PX-7 piranha demo and is credited on-screen 'Built with Claude Code by @Nyxera0x. Open source.'; slide 0 promotes an open-source Claude skill; slide 3's tarantula preview is the repo's docs/tarantula.gif. The repo owner Nyxera0x matches the credited builder, and its docs (JOB_DESCRIPTION.md, CHECKLIST.md, LESSONS.md) are exactly the 'job description file + checklist + log fixes' the caption describes. 181 GitHub stars checked 2026-11-12 - below Kushal's 1,000-star baseline, kept under the creator's-own-repo identity exemption (same basis as cracked #45, leadzilla and referral-master: identity-verified from the source, not search-guessed). MIT; repo created and last pushed 2026-11-06. The carousel's 'comment 3D' gate was NOT used - no comment posted; the gated payload (workflow, prompts and job file via 'The AI Leverage' newsletter, Nov 12 2026) is the same material published openly in the repo's docs/.",
       "removal": "Delete installed/cutaway/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
       "status": "installed"
+    },
+    {
+      "id": "agentation",
+      "name": "Agentation",
+      "category": "skill",
+      "source_type": "instagram-reel",
+      "source_url": "https://www.instagram.com/reel/DfwBzGZtbE5/",
+      "source_author": "many_barn",
+      "upstream_url": "https://github.com/benjitaylor/agentation",
+      "installed_by": "merlin",
+      "installed_at": "2026-11-15",
+      "description": "Agent-agnostic visual feedback tool by Benji Taylor for AI coding agents. A React component (<Agentation />) mounts a toolbar in your dev build; click any element (or select text, Cmd/Ctrl-click multi-select, or drag-select), add a note, and get structured markdown back with CSS selectors, element positions, computed styles, source-file paths and the React component tree, so the agent can grep for the exact code instead of guessing from a screenshot. Animation pause freezes CSS/JS/video mid-transition so transient states can be annotated. Two modes: copy the markdown locally, or sync annotations to the agentation-mcp MCP server so the agent reads pending annotations directly (agentation_get_all_pending / watch). React 18+ recommended (16.8+ works), dev/localhost only, desktop browsers. PolyForm Shield 1.0.0.",
+      "install_method": "Skill route: npx skills add benjitaylor/agentation -g. In a project: npm install agentation -D and mount <Agentation /> next to the app root (dev only). MCP route: configure the coding agent to run npx -y agentation-mcp server and pass its HTTP endpoint to <Agentation endpoint=... />; the agent then reads annotations itself instead of copy-paste. Docs: agentation.com.",
+      "path": "installed/agentation/",
+      "verification": "Identity resolved from multiple independent sources, not the reel alone: the reel's caption names Agentation and its audio track is titled 'GitHub repo'; a curated design-engineering resource (checked against the live repo, Sep 2026), the deploychan MCP directory and third-party skill wrappers all resolve Agentation to benjitaylor/agentation, original work (c) Benji Taylor. 5,413 GitHub stars checked 2026-11-15 via the GitHub API - above Kushal's 1,000-star baseline, no exemption needed. Last push 2026-09-22. License: PolyForm Shield 1.0.0 per the repo and curated sources (GitHub API reports NOASSERTION): free for internal use; use in a competing product / commercial redistribution is restricted. A maintained fork exists (alexgorbatchev/agentation, with @alexgorbatchev/agentation-cli local-server packages); the original benjitaylor repo is canonical. The reel's 'comment PDF' gate was NOT used - no comment posted; the full setup is published openly in the repo README and at agentation.com.",
+      "removal": "Delete installed/agentation/ and remove this entry from registry.json and REGISTRY.md, then append a removal event to history.jsonl.",
+      "status": "installed"
     }
   ]
 }
