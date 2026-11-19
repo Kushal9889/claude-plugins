@@ -1,0 +1,6 @@
+{
+  "name": "career-ops",
+  "version": "1.0.0",
+  "description": "Agent-installed: Career-Ops (documented here, not vendored)",
+  "skills": "./skills/"
+}
